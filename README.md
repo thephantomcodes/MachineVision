@@ -1,10 +1,10 @@
 # MachineVision
 This repository contains a number of single file C programs for performing common machine vision tasks on 8-bit grayscale image files. Common file formats such as BMP and JPG will not work.
 
-## MakeCircles.c 
+### MakeCircles.c 
 Create a 256x256 8-bit grayscale image with concentric circles. No cmd args are required. Output file is simply called "circles".
 
-## AddNoiseToImage.c 
+### AddNoiseToImage.c 
 Adds uniform noise to an image with a user defined max. Output file will append "_noise_MAX-LEVEL"
 
 Cmd args are as follows:
@@ -13,7 +13,7 @@ Cmd args are as follows:
 3. Num colums
 4. Max noise level
 
-## AverageFilter.c 
+### AverageFilter.c 
 Perform 3x3 average filtering on an image. Output file will append "_filtered"
 
 Cmd args:
@@ -21,7 +21,7 @@ Cmd args:
 2. Num rows
 3. Num colums
 
-## Sobel.c 
+### Sobel.c 
 Performs Sobel edge detection on an image. Output file will append "_binary_edges_THRESHOLD"
 
 Cmd args:
