@@ -1,9 +1,10 @@
 # MachineVision
 This repository contains a number of single file C programs for performing common machine vision tasks on 8-bit grayscale image files. Common file formats such as BMP and JPG will not work.
 
-MakeCircles.c will create a 256x256 8-bit grayscale image with concentric circles. No cmd args are required. Output file is simply called "circles".
+# MakeCircles.c 
+Create a 256x256 8-bit grayscale image with concentric circles. No cmd args are required. Output file is simply called "circles".
 
-AddNoiseToImage.c will add uniform noise to an image with a user defined max. Output file will append "_noise_MAX-LEVEL"
+# AddNoiseToImage.c will add uniform noise to an image with a user defined max. Output file will append "_noise_MAX-LEVEL"
 Cmd args are as follows:
 1. Filename
 2. Num rows
