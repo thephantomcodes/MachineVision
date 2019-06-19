@@ -32,3 +32,6 @@ Cmd args:
 
 ### img directory 
 Contains a number of files that were processed using this chain. An additional 256x256 image called "mri" is also included to demonstrate that it works on real images.
+
+### show_images.py
+Since the image files are binary, most applications will not display them. This python script can be used to see them.
