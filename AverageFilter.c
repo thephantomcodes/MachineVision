@@ -1,3 +1,8 @@
+/*
+ This is a single file program that will perform 3x3 average filtering of a 
+ binary image file and save the result.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -11,6 +16,8 @@ int main(int argc, char** argv) {
     char* data_file = argv[1];  //input file name
     int m = atoi(argv[2]);	//num rows
     int n = atoi(argv[3]);	//num columns
+    
+    //output fname appends filtered
     char* filename = (char*)malloc(100);
     strcpy(filename, data_file);
     strcat(filename, "_filtered");

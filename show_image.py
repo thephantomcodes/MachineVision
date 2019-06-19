@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-fid = open("img\circles", 'r');
+fid = open("img\circles_noise_5_filtered_binary_edges_10", 'r');
 pic = bytearray(fid.read());
 fid.close();
 
