@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-fid = open("img\mri_binary_edges_10", 'r');
+fid = open("img\mri", 'rb');
 pic = bytearray(fid.read());
 fid.close();
 
